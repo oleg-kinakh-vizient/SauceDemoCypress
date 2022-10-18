@@ -1,0 +1,17 @@
+{
+  "name": "swaglabscypress",
+  "version": "1.0.0",
+  "description": "Trying out miltiple user log in",
+  "main": "hello.js",
+  "scripts": {
+    "cypress:open-test": "cypress open --config-file configs/cypress-test.json --env environment=test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.3",
+    "cypress": "^10.10.0",
+    "cypress-highlight": "^1.2.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}
